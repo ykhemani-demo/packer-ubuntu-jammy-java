@@ -1,0 +1,12 @@
+---
+- name: Provision image
+  hosts: default
+  become: true
+  
+  tasks:
+    - name: Install Java
+      ansible.builtin.apt:
+        pkg:
+          - openjdk-21-jdk
+          - tomcat9
+        update_cache: yes
