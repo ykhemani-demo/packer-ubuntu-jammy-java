@@ -5,28 +5,28 @@ locals {
 
 data "hcp-packer-artifact" "ubuntu-jammy-golden-image-us-east-1" {
   bucket_name  = "ubuntu-jammy-golden-image"
-  channel_name = "dev"
+  channel_name = "prod"
   platform     = "aws"
   region       = "us-east-1"
 }
 
 data "hcp-packer-artifact" "ubuntu-jammy-golden-image-us-east-2" {
   bucket_name  = "ubuntu-jammy-golden-image"
-  channel_name = "dev"
+  channel_name = "prod"
   platform     = "aws"
   region       = "us-east-2"
 }
 
 data "hcp-packer-artifact" "ubuntu-jammy-golden-image-us-west-1" {
   bucket_name  = "ubuntu-jammy-golden-image"
-  channel_name = "dev"
+  channel_name = "prod"
   platform     = "aws"
   region       = "us-west-1"
 }
 
 data "hcp-packer-artifact" "ubuntu-jammy-golden-image-us-west-2" {
   bucket_name  = "ubuntu-jammy-golden-image"
-  channel_name = "dev"
+  channel_name = "prod"
   platform     = "aws"
   region       = "us-west-2"
 }
