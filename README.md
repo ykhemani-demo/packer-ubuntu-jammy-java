@@ -6,6 +6,10 @@ This repo provides a [HashiCorp](https://hashicorp.com) [Packer](https://packer.
 
 ### Prerequisites
 
+#### Ubuntu Jammy Golden Image
+
+As mentioned above, this Packer template builds off of [packer-ubuntu-jammy](https://github.com/ykhemani-demo/packer-ubuntu-jammy). Build and register images from that Packer template if you haven't already done so.
+
 #### Software
 
 This Packer template has been tested with the following software on a Mac running macOS on Apple Silicon.
